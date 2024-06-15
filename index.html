@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <title>Home-Page</title>
+    <meta property="og:title" content="Home" />
+    <meta property="og:type" content="websites" />
+    <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
+    <meta property="og:image" content="https://vkdez.github.io/Home-page/" />
+    <meta property="og:video:width" content="400" />
+    <meta property="og:video:height" content="300" />
+</head>
+
+<body>
+    <div class="home_page">
+        <header class="top">
+            <div class="logo" src="">
+                <img class="logo_img" src="./img/alarado-icon-homepage.svg">
+            </div>
+
+            <div class="menu">
+                <div class="About" href="#">About us</div>
+                <div class="Product" href="#">Product</div>
+                <div class="Resource" href="#">Resource</div>
+                <div class="Contact" href="#">Contact</div>
+            </div>
+
+            <div class="btn_abrir" id="btn_menu">
+                <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/000000/menu--v6.png" alt="menu--v6"/>
+            </div>
+            
+            <div class="menu_mobile" id="menu_mobile">
+                <div class="btn_fechar">
+                    <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/000000/delete-sign--v1.png" alt="delete-sign--v1"/>
+                </div>
+
+                <nav>
+                    <ul>
+                     <li><a><img class="home" width="40" href="#" height="40" src="https://img.icons8.com/ios-filled/50/000000/home.png" alt="home"/></a></li>   
+                     <li><a class="About" href="#">About us</a></li>
+                     <li><a class="Product2" href="#">Product</a></li>
+                     <li><a class="Resource" href="#">Resource</a></li>
+                     <li><a class="Contact" href="#">Contact</a></li>
+                    </ul>
+                 </nav>
+            </div>
+              
+            <div class="over_menu" id="over"></div>
+            
+
+            <div class="moon_sun">
+                <input class="input_toggle" type="checkbox" id="darkmode-toggle">
+                <label class="toggle" for="darkmode-toggle"></label>
+            </div>
+        </header>
+
+        
+
+        <main class="mid">
+            <div class="text_button">
+                <header>😎 SIMPLE WAY TO COMMUNICATE</header>
+
+                <main>
+                    <h1>Actions for Accessibility in Design</h1>
+                </main>
+
+                <div>
+                    <h6>The fastest way to build and deploy websites with
+                        resusable components.
+                    </h6>
+                </div>
+
+                <div class="button_link">
+                    <button class="bt">GET STARTED</button>
+                    <a href="#">Get live demo</a>
+                </div>
+
+                <footer class="end">
+                    <img class="ring1" src="./img/Done_ring_round_fill.svg"><span>No credit card required</span>
+                    <img class="ring2" src="./img/Done_ring_round_fill.svg"><span>No software to install</span>
+                </footer>
+            </div>
+
+            <img src="./img/hero-image-simple-homepage.png" class="hero">
+        </main>
+
+        <footer class="bot">created by <a href="https://github.com/Vkdez?tab=repositories" target="_blank">Jonathan N Sousa</a> - devChallenges.io
+        </footer>
+    </div>
+
+    <script src="./script.js" darkmode></script>
+    <script src="./menu_mobile.js" menu></script>
+
+</body>
+
+</html>
